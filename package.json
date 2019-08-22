@@ -1,0 +1,11 @@
+{
+  "name": "messageboard",
+  "version": "1.0.0",
+  "description": "A message board app for users to discuss and share topics.",
+  "main": "(src/server.js)",
+  "scripts": {
+    "test": "export NODE_ENV=test&& jasmine"
+  },
+  "author": "Chris Yee",
+  "license": "ISC"
+}
