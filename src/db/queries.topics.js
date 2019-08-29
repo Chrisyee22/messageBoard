@@ -46,7 +46,7 @@ module.exports = {
       })
     },
 
-    updateTopic(id, updateTopic, callback){
+    updateTopic(id, updatedTopic, callback){
       return Topic.findByPk(id)
       .then((topic) => {
         if(!topic){

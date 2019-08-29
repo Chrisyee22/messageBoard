@@ -50,7 +50,7 @@ const topicQueries = require("../db/queries.topics.js");
   },
 
   edit(req, res, next){
-    topicQueries.editTopic(req.params.id, (err, topic) =>{
+    topicQueries.getTopic(req.params.id, (err, topic) =>{
       if(err || topic == null){
         res.redirect(404, "/");
       } else {
